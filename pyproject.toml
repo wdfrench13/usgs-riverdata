@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "usgs-waterdata"
 version = "0.1.0"
-description = ""
+description = "Pulls data from the USGS Water Data service"
 authors = ["William French <wdfrench13@gmail.com>"]
+license = "Creative Commons Attribution Sharealike 3.0 Unported"
+readme = "README.md"
+homepage = "https://github.com/wdfrench13/usgs-waterdata"
+repository = "https://github.com/wdfrench13/usgs-waterdata"
+keywords = ["USGS", "waterdata", "river"]
+long_description_content_type='text/markdown'
 
 [tool.poetry.dependencies]
 python = "^3.7"
