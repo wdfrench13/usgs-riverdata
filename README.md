@@ -4,6 +4,12 @@
 
 ## Usage
 
+Import using 
+
+```python
+import usgs_riverdata
+```
+
 The core functionality of this library is the Gage class. 
 
 Initializing an object of this class requires a [site code](http://help.waterdata.usgs.gov/codes-and-parameters/codes#search_station_nm). Each USGS data source has unique location code used to retrive data. The default data length is 7 days, this is configurable using an ISO-8601 Duration format, as specifed [here](https://waterservices.usgs.gov/rest/IV-Service.html#Specifying). Additional parameters are optional and specified [here](https://waterservices.usgs.gov/rest/IV-Service.html#Specifying).
